@@ -1,14 +1,16 @@
+package main;
+
 /**
  * Created by Lander Brandt on 1/23/15.
  */
-public class BallsBlue extends TreeDecorator {
-    public BallsBlue(Tree tree) {
+public class Ribbons extends TreeDecorator {
+    public Ribbons(Tree tree) {
         this.tree = tree;
     }
 
     @Override
     public String description() {
-        return tree.description() + ", blue balls";
+        return tree.description() + ", ribbons";
     }
 
     @Override

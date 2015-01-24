@@ -1,3 +1,5 @@
+package main;
+
 import java.util.ArrayList;
 
 /**
@@ -13,7 +15,7 @@ public class Star extends TreeDecorator {
         Tree baseTree = tree.baseTree();
         if (treesAssignedTo.contains(baseTree)) {
             starIsDuplicate = true;
-            System.out.println("Tree already has a star!");
+            System.out.println("main.Tree already has a star!");
         } else {
             treesAssignedTo.add(baseTree);
         }

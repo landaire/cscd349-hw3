@@ -1,8 +1,10 @@
+package main;
+
 /**
  * Created by Lander Brandt on 1/23/15.
  */
 public abstract class Tree {
-    protected String description = "Unknown Tree";
+    protected String description = "Unknown main.Tree";
 
     public String description() {
         return description + " decorated with";

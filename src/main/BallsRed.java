@@ -1,18 +1,20 @@
+package main;
+
 /**
  * Created by Lander Brandt on 1/23/15.
  */
-public class LEDs extends TreeDecorator {
-    public LEDs(Tree tree) {
+public class BallsRed extends TreeDecorator {
+    public BallsRed(Tree tree) {
         this.tree = tree;
     }
 
     @Override
     public String description() {
-        return tree.description() + ", LEDs";
+        return tree.description() + ", red balls";
     }
 
     @Override
     public int cost() {
-        return 10 + tree.cost();
+        return 1 + tree.cost();
     }
 }
